@@ -1,6 +1,6 @@
 const mysql = require('mysql2');
 const inquirer = require('inquirer');
-require('console.table');
+const consoleTable = require('console.table');
 
 
 
@@ -65,7 +65,7 @@ function entryPoint() {
             case 'View Employees by department':
                 viewEmployeesByDepartment();
                 break;
-            case 'View department budgets':
+            case 'View departments budget':
                 viewDepartmentBudget();
                 break;
             case 'Add an Employee':
@@ -310,7 +310,7 @@ function viewEmployeesByDepartment() {
 //budget By Department
 function viewDepartmentBudget() {
     console.log('Budget By Department:');
-    const sql = `SELECT department.id AS id, department.name AS name, SUM(salary) AS budget FROM  role INNER JOIN department ON role.id = department.id GROUP BY role.id`;
+    const sql = `SELECT department.id AS id, department.name AS name, SUM(salary) AS budget FROM role INNER JOIN department ON role.id = department.id GROUP BY role.id`;
     conn.query(sql, (err, res) => {
         if (err) throw err;
         console.table(res);

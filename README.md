@@ -33,4 +33,49 @@ NPM RUN START
 
 ## ScreenShots
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./assets/11-express-homework-demo-01.png)
+
+## View All EMployees
+
+![View All Employee](./assets/images/viewAllEmployees.png)
+
+
+## Add employee
+
+![Add Employee](./assets/images/addEmployee.png)
+
+
+## Update an employee manager
+
+![Update](./assets/images/updateEmploeyeeManager.png)
+
+## Delete employee
+
+![Delete Employee](./assets/images/deleteAnEmployee.png)
+
+## View All Roles
+
+![All Roles](./assets/images/viewAllRoles.png)
+
+## Add Role
+
+![Add Roles](./assets/images/addRole.png)
+
+## Delete Role
+
+![Delete Role](./assets/images/deleteRole.png)
+
+## View Departments
+
+![Departments](./assets/images/viewAllDepartments.png)
+
+## View Department budget
+
+![Departments](./assets/images/viewDepartmentBudget.png)
+
+## View Employee by Department
+
+![Departments](./assets/images/viewEmployeeByDepartment.png)
+
+## View Employee by Manager
+
+![Departments](./assets/images/viewEmployeeByManager.png)
