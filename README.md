@@ -79,3 +79,11 @@ NPM RUN START
 ## View Employee by Manager
 
 ![Departments](./assets/images/viewEmployeeByManager.png)
+
+
+## Screen Recording
+
+
+https://user-images.githubusercontent.com/114849473/210797351-ff542198-3e35-4d2e-a7be-68e86371cee9.mp4
+
+
